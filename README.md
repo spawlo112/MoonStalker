@@ -1,7 +1,7 @@
 # MoonStalker
 MoonStalker is an application designed to keep track of Date and Phases of seven fictional moons each having different orbiting cycle length. Purposefully for Worldbuilding, RPG's, or writing.
 
-## Features and Customisation:
+## Features and Customisation
 ###  1. Date tracking:
 Allows to pass or rewind days, months, or years one by one, or input any number and pass or rewind this many days, months or years, cycling through date. Date is saved in DateSave.txt. 
 
@@ -11,7 +11,7 @@ Shows corresponding to date moonphase for each of seven moons, with additional i
 ## 3. GUI:
 Program is provided with simple GUI written in RayLib, making provided information more user-friendly and easily readible, as well as allowing easy input.
 
-## Provided Moons:
+## Provided Moons
 ### 1. Alrune:
 - Orbital Period: 118 days
 - Lenght of New Phase: 20 days
@@ -34,4 +34,20 @@ Program is provided with simple GUI written in RayLib, making provided informati
 - Orbital Period: 59 days
 - Lenght of New Phase: 5 days
 
-## Installation and Dependencies:
+## Installation and Dependencies
+To download MoonStalker, you need to:
+### 1. Clone git repository
+Move to directory you want this application in then
+`git clone https://github.com/spawlo112/MoonStalker`
+### 2. Install Raylib
+As GUI of this app is based on RayLib its essential to have it downloaded. 
+example for Arch / Arch-based OS:
+`sudo pacman -S raylib`
+### 3. Compile MoonStalker
+Once RayLib is downloaded and you cloned repository move to directory of installed repo and compile MoonStalker.c linking raylib and other libraries
+gcc example:
+`gcc -o MoonStalker main.c -lraylib -lm -lpthread -ldl -lX11`
+### 4. Run the app
+If everything done correctly running:
+`./MoonStalker`
+should open and run MoonStalker.

@@ -38,16 +38,24 @@ Program is provided with simple GUI written in RayLib, making provided informati
 To download MoonStalker, you need to:
 ### 1. Clone git repository
 Move to directory you want this application in then
-`git clone https://github.com/spawlo112/MoonStalker`
+```bash
+git clone https://github.com/spawlo112/MoonStalker
+```
 ### 2. Install Raylib
 As GUI of this app is based on RayLib its essential to have it downloaded. 
 example for Arch / Arch-based OS:
-`sudo pacman -S raylib`
+```bash
+sudo pacman -S raylib
+```
 ### 3. Compile MoonStalker
 Once RayLib is downloaded and you cloned repository move to directory of installed repo and compile MoonStalker.c linking raylib and other libraries
 gcc example:
-`gcc -o MoonStalker main.c -lraylib -lm -lpthread -ldl -lX11`
+```bash
+gcc -o MoonStalker main.c -lraylib -lm -lpthread -ldl -lX11
+```
 ### 4. Run the app
 If everything done correctly running:
-`./MoonStalker`
+```bash
+./MoonStalker
+```
 should open and run MoonStalker.

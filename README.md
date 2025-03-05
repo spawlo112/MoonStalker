@@ -39,7 +39,7 @@ To download MoonStalker, you need to:
 ### 1. Clone git repository
 Move to directory you want this application in then
 ```bash
-git clone https://github.com/spawlo112/MoonStalker.git
+git clone https://github.com/WeaverArtiz/MoonStalker.git
 ```
 ### 2. Install Raylib
 As GUI of this app is based on RayLib its essential to have it downloaded. 

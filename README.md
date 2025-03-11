@@ -55,10 +55,10 @@ Windows:
 Download latest release of RayLib from their official site.
 
 ### 3. Compile MoonStalker
-Once RayLib is downloaded and you cloned repository move to directory of installed repo and compile MoonStalker.c linking raylib and other libraries
+Once RayLib is downloaded and you cloned repository, move to directory of installed repo and compile MoonStalker.c linking raylib and other libraries
 gcc example:
 ```bash
-gcc -o MoonStalker main.c -lraylib -lm -lpthread -ldl -lX11
+gcc -o MoonStalker MoonStalker.c -lraylib -lm -lpthread -ldl -lX11
 ```
 ### 4. Run the app
 If everything done correctly running:
